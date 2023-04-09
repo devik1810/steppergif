@@ -10,6 +10,8 @@ class StepperExample extends StatefulWidget {
 class _StepperExampleState extends State<StepperExample> {
   @override
   Widget build(BuildContext context) {
+
+    int i = 0;
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
@@ -148,5 +150,5 @@ class _StepperExampleState extends State<StepperExample> {
     );
   }
 
-  int i = 0;
+
 }
